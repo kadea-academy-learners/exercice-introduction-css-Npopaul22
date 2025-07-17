@@ -1,110 +1,114 @@
-
+/* Sélecteur universel */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
+/* Corps de la page */
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
   line-height: 1.6;
-  background-color: rgb(201, 192, 192);
-}
-.intro {
-  font-size: 1.2em;
-  margin-bottom: 20px;
-  color: rgb(255, 255, 255);
+  background-color: rgb(250, 250, 250);
+  color: rgb(33, 33, 33);
+  padding: 2rem;
 }
 
-
-a {
-  color: #007BFF;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-
-blockquote {
-  font-style: italic;
-  background: #eef;
-  padding: 15px 20px;
-  margin: 20px 0;
-  border-left: 5px solid #66f;
-  border-radius: 5px;
-}
-
-
-img {
-  max-width: 100%;
-  border-radius: 5px;
-  margin: 20px 0;
-
-
+/* En-tête */
 header {
-  margin-left: 30rem;
-  margin-right: 30rem;
+  text-align: center;
+  background-color: rgb(230, 240, 255);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 header h1 {
-  font-size: 30px;
+  font-size: 2.5rem;
+  color: rgb(15, 76, 129);
+  margin-bottom: 0.5rem;
 }
 
-h2 {
-  font-size: 16px;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+header p {
+  font-size: 1.25rem;
+  color: rgb(80, 80, 80);
 }
 
-div h3 {
+/* Section photo */
+.photo figure {
   display: flex;
-  margin-left: 30rem;
-  margin-right: 30rem;
-}
-
-div figure {
-  background-color: rgb(255, 255, 255);
-}
-img {
-  margin-left: 20rem;
-  margin-right: 20rem;
-  display: flex;
-}
-
-figcaption {
-  margin-left: 20rem;
-  margin-right: 20rem;
-  font-size: 10px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-div ul {
-  align-items: center;
   justify-content: center;
-  align-items: center;
-  padding-left: 0;
-}
-li {
-  margin-bottom: 15px;
-  align-items: center;
-  margin-left: 20rem;
-  margin-right: 20rem;
-}
-div p {
-  margin-left: 22rem;
-  margin-right: 22rem;
-}
-footer {
-  margin-left: 16rem;
-  margin-right: 16rem;
+  margin-bottom: 2rem;
 }
 
+.photo img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+/* Réalisations */
+.realisation {
+  background-color: rgb(245, 245, 245);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.realisation h2 {
+  font-size: 1.75rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: rgb(44, 62, 80);
+}
+
+.realisation p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.realisation ul {
+  list-style-type: square;
+  margin-left: 2rem;
+  color: rgb(51, 51, 51);
+}
+
+.realisation li {
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+}
+
+/* Citation */
+.citation {
+  background-color: rgb(240, 248, 255);
+  padding: 1.5rem;
+  border-left: 5px solid rgb(15, 76, 129);
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+}
+
+.citation blockquote p {
+  margin-bottom: 1rem;
+  color: rgb(60, 60, 60);
+  font-size: 1rem;
+}
+
+.citation a {
+  color: rgb(15, 76, 129);
+  text-decoration: underline;
+}
+
+.citation a:hover {
+  color: rgb(10, 50, 90);
+}
+
+/* Pied de page */
 footer {
-  margin-top: 30px;
-  font-size: 0.9em;
-  color: #777;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+  color: rgb(100, 100, 100);
 }
 
